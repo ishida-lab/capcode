@@ -1,0 +1,7 @@
+metrics:
+  - type: uv-script
+    kwargs:
+      script_path: harbor_metrics/aggregate_pass_rate.py
+
+datasets:
+  - path: harbor_tasks/mbppplus_capped_ex_lv
